@@ -4,18 +4,22 @@
     box-sizing: border-box;
 }
 
-.container{
+.container {
     width: 100%;
     max-width: 1320px;
     margin: 0 auto;
 }
 
-.hero-section{
+/*body {*/
+/*    font-family: 'Inter', sans-serif;*/
+/*}*/
+
+.hero-section {
     margin-top: 5rem;
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/Banner Image.png");
+    background-image: linear-gradient(#070211, #07021100), url("/public/Banner Image.png");
     height: 600px;
     background-repeat: no-repeat;
     position: relative;
@@ -41,4 +45,204 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+}
+
+
+/*Discount*/
+
+.discount-section {
+    font-family: 'Inter', sans-serif;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.discount-section h1 {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+.discount-section p:first-of-type {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.discount-section p:nth-of-type(2) {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+
+/*Call to action*/
+.call-to-action {
+    margin-top: 5rem;
+}
+
+.cta-bg {
+    background-image: linear-gradient(to right, #070211, #07021100), url("/public/Vectorrr.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 16px;
+}
+
+.cta-text {
+    font-family: "Merriweather", serif;
+    color: blue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 5rem;
+
+}
+
+
+.cta-text h1 {
+    width: 642px;
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7px;
+}
+
+.cta-text p {
+    font-family: "Inter", serif;
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.cta-text h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.cta-extra-img {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translate(50%, -50%);
+}
+
+
+/*Event*/
+
+.event-section {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 482px;
+    border-radius: 16px;
+}
+
+.event-section_text {
+    font-family: "Inter", serif;
+    line-height: 56px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+
+.event-section_text .key {
+    color: #F00;
+}
+
+.event-section_text .value {
+    color: #070211;
+}
+
+.event-section_button {
+    color: #FFF;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    margin-top: 3rem;
+}
+
+
+.section-best-offer{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.section-best-offer h2{
+    color: #F00;
+    font-family: "Inter", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.section-best-offer h1{
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.section-best-offer p {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+.section-best-offer .circle-img{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 1.5rem;
+}
+
+
+.new-year-icon{
+    margin-top: 2rem;
 }
