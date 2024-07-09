@@ -195,7 +195,7 @@
 }
 
 
-.section-best-offer{
+.section-best-offer {
     margin-top: 5rem;
     display: flex;
     justify-content: space-between;
@@ -204,7 +204,7 @@
 }
 
 
-.section-best-offer h2{
+.section-best-offer h2 {
     color: #F00;
     font-family: "Inter", serif;
     font-size: 24px;
@@ -215,7 +215,7 @@
     text-transform: uppercase;
 }
 
-.section-best-offer h1{
+.section-best-offer h1 {
     color: #070211;
     font-family: "Merriweather", serif;
     font-size: 48px;
@@ -236,13 +236,123 @@
     line-height: 32px; /* 160% */
 }
 
-.section-best-offer .circle-img{
+.section-best-offer .circle-img {
     border-radius: 463px;
     border: 15px solid #F00;
     padding: 1.5rem;
 }
 
 
-.new-year-icon{
+.new-year-icon {
     margin-top: 2rem;
+}
+
+
+.holiday-section {
+    margin-top: 5rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.holiday-section p {
+    font-family: "Inter", serif;
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+.text-red{
+    color: #F00;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    transform: rotateX(45deg);
+}
+
+
+
+.text-black{
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.holiday-section h2{
+    color: #070211;
+    font-family: "Inter", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.img-container{
+    position: relative;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4rem;
+}
+
+.img-container :nth-of-type(3){
+    position: absolute;
+    bottom: 0;
+    left: 8rem;
+    width: 500px;
+}
+
+
+.image-grid-section{
+    font-family: "Inter", serif;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+
+.image-grid-section p {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+.image-grid-section h2 {
+    color: #F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.image-grid-section h1 {
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.image-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
