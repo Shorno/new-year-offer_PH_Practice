@@ -19,7 +19,7 @@
 }
 
 .hero-image {
-    background-image: linear-gradient(#070211, #07021100), url("/public/Banner Image.png");
+    background-image: linear-gradient(#070211, #07021100), url("/public/banner-Image.png");
     height: 600px;
     background-repeat: no-repeat;
     position: relative;
