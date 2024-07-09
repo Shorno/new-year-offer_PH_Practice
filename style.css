@@ -430,3 +430,54 @@
 
 }
 
+.footer {
+    width: 100%;
+    margin-top: 10rem;
+    background: #000;
+    color : #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-section{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.address{
+    line-height: 1.5rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.web-icon, .telephone{
+    display: flex; gap: 1rem;
+}
+
+.line {
+    height: 1px;
+    background: #292929;
+    margin-top: 2rem;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.copyright{
+    margin-top: 2rem;;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
