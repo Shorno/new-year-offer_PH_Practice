@@ -268,7 +268,8 @@
     font-weight: 500;
     line-height: 32px; /* 160% */
 }
-.text-red{
+
+.text-red {
     color: #F00;
     text-align: center;
     font-family: "Merriweather", serif;
@@ -280,8 +281,7 @@
 }
 
 
-
-.text-black{
+.text-black {
     color: #070211;
     font-family: "Merriweather", serif;
     font-size: 72px;
@@ -289,7 +289,8 @@
     font-weight: 900;
     line-height: normal;
 }
-.holiday-section h2{
+
+.holiday-section h2 {
     color: #070211;
     font-family: "Inter", serif;
     font-size: 24px;
@@ -298,7 +299,7 @@
     line-height: normal;
 }
 
-.img-container{
+.img-container {
     position: relative;
     margin-top: 5rem;
     display: flex;
@@ -307,7 +308,7 @@
     gap: 4rem;
 }
 
-.img-container :nth-of-type(3){
+.img-container :nth-of-type(3) {
     position: absolute;
     bottom: 0;
     left: 8rem;
@@ -315,12 +316,12 @@
 }
 
 
-.image-grid-section{
+.image-grid-section {
     font-family: "Inter", serif;
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
-    gap:1rem;
+    gap: 1rem;
 }
 
 
@@ -341,6 +342,7 @@
     line-height: normal;
     text-transform: uppercase;
 }
+
 .image-grid-section h1 {
     color: #070211;
     font-family: "Merriweather", serif;
@@ -351,8 +353,80 @@
     text-transform: capitalize;
 }
 
-.image-grid{
+.image-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
+
+.newsletter-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.newsletter-section h1 {
+    color: #070211;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.newsletter-section p {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+.input-button {
+    margin-top: 3rem;
+    display: flex;
+    width: 648px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-button :nth-of-type(1) {
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    padding-left: 4rem;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: "Inter", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.input-button :nth-of-type(2) {
+    border-radius: 0 50px 50px 0;
+    background: #F00;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    font-family: "Inter", serif;
+
+}
+
